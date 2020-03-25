@@ -1,6 +1,6 @@
 body{
 	text-align: center ; 
-background:linear-gradient(to right,#05272c,#9d3bef);}
+	background:linear-gradient(to right,#05272c,#9d3bef);}
 h1{
 	font-weight: 5em ; 
 	font-size : 5em ; 
@@ -10,7 +10,7 @@ h1{
 h4{
 	font-family: 'Fugaz One', cursive;
 	color: rgba(252, 94, 3,0.6) ; 
-	font-size: 1.3em ;
+	font-size: 1.2em ;
 	font-family: 'Orbitron', sans-serif; 
 }
 #add{
