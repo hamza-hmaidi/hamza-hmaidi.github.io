@@ -42,6 +42,7 @@ input{
 }
 #sort:hover{
 	color: gray ; 
+	border:none;
 }
 
 .list-item {
