@@ -10,7 +10,8 @@ h1{
 h4{
 	font-family: 'Fugaz One', cursive;
 	color: rgba(252, 94, 3,0.6) ; 
-	font-size: 1.3em ; 
+	font-size: 1.3em ;
+	font-family: 'Orbitron', sans-serif; 
 }
 #add{
 	background: none ; 
@@ -25,10 +26,24 @@ h4{
 
 input{
 	height: 45px ;
-	background-color: rgba(184, 201, 133,0.5);	
+	background-color: rgba(0, 0, 50,0.4);	
 	font-size: 1.3em ; 
-
+	border-color: rgba(0, 0, 50,0.4) ; 
+ 	border-radius: 25px ; 
+	
 }
+
+#sort{
+	background-color: rgba(0, 0, 50,0.4);
+	border-radius: 25px ; 
+	border-color: rgba(0, 0, 50,0.4) ; 
+	width : 100px ; 
+	height: 40px ; 
+}
+#sort:hover{
+	color: gray ; 
+}
+
 .list-item {
 
 	height: 50px; 

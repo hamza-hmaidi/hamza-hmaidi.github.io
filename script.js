@@ -51,7 +51,24 @@ input.addEventListener("keypress",function(e){
 }) ;
 
 
+var sortbtn = document.querySelector("#sort") ; 
+sortbtn.addEventListener("click",function(){
+	var list = document.querySelectorAll(".list-item") ; 
+	var tab = Array.from(list) ; 
 
+	function compare(a,b){
+		var task1 = a.firstElementChild.innerText; 
+		var task2 = b.firstElementChild.innerText; 
+		if(task1<task2)
+			return(-1);
+		else if (task1>task2)
+			return(1);
+		return 0 ; 	
+	}
+	tab.sort(compare); 
+	console.log(tab) ;
+	tab.forEach(e=>ul.appendChild(e)) ;
+});
 	
 
 
