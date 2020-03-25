@@ -27,8 +27,8 @@ function createListElement(){
 		if(input.value!==""){
 			var li=document.createElement('li') ; 
 			li.classList.add('list-item'); 
-			li.addEventListener("click",function(){
-				li.style.cssText='background-color: rgb(16, 117, 2); '
+			li.addEventListener("click",function(){				
+				li.classList.toggle("done"); 
 			})
 	
 	

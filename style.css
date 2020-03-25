@@ -13,6 +13,7 @@ h4{
 	font-size: 1.2em ;
 	font-family: 'Orbitron', sans-serif; 
 }
+
 #add{
 	background: none ; 
 	border: none ; 
@@ -30,7 +31,8 @@ input{
 	font-size: 1.3em ; 
 	border-color: rgba(0, 0, 50,0.4) ; 
  	border-radius: 25px ; 
-	
+	color: white ; 
+	padding: 10px ;
 }
 
 #sort{
@@ -64,7 +66,12 @@ input{
 .list-item:hover {
 	background-color : rgba(20,100,140,0.8) ; 
 }
-
+.done{
+	background-color: rgb(16, 117, 2) ; 	
+}
+.done:hover{
+	background-color: rgb(16, 117, 2,0.6) ; 
+}
 .x{
 	font-weight:  2em ;
 	font-size: 1.5em ; 
