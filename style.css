@@ -1,0 +1,79 @@
+h1{
+	font-family: 'Russo One', sans-serif;
+	font-weight: 2000;
+	letter-spacing: 5px ;
+	font-size: 5em ;
+}
+
+table{
+	border-collapse: collapse;
+	border: solid 4px;
+
+}
+td{
+	border: solid 2px;
+	padding: 0 ;
+	margin: 0 ;
+}
+
+input{
+	width: 40px;
+	height: 40px ; 
+	border: none; 
+	text-align: center;
+	font-size: 20px ;
+
+	background-color: rgb(198, 203, 204);
+
+}
+.right{
+	border-right: solid 4px ; 
+}
+.bottom{
+	border-bottom: solid 4px ;
+}
+.initVal{
+	font-weight: 800; 
+	background-color: rgb(170, 219, 230);
+}
+body{
+	text-align: center;
+	background-color: rgb(220, 233, 245) ;
+}
+.container{
+	width: 500px ; 
+	height:  500px ; 
+	background-color: white;
+
+	display: flex ; 
+	align-items: center;
+	justify-content: center;
+
+}
+button{
+	height: 50px ;
+	margin: 10px ;
+	background-color: rgb(134, 214, 227);
+	border :none;
+	border-radius: 20px ;
+}
+button:hover{
+	background-color: rgb(76, 162, 176);	
+}
+.bigcontainer{
+	display: flex ;
+	padding: auto ; 
+	margin: auto ; 
+	max-width: 800px;
+	justify-content: space-between;
+	flex-wrap: wrap; 
+}
+.side{
+	display: flex; 
+	flex-direction: column;
+	background-color: white;
+}
+
+#time{
+	font-size: 20px ; 
+}
